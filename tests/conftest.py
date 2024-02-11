@@ -29,7 +29,7 @@ engine = create_async_engine(
 
 TestingSessionLocal = async_sessionmaker(autocommit=False, autoflush=False, expire_on_commit=False, bind=engine)
 
-test_user = {"username": "yulyan", "email": "yulyan@gmail.com", "password": "secret789123"}
+test_user = {"username": "artem", "email": "artem@gmail.com", "password": "15061992"}
 
 
 @pytest.fixture(scope="module", autouse=True)

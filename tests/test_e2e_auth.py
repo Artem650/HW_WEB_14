@@ -7,7 +7,7 @@ from src.entity.models import User
 from tests.conftest import TestingSessionLocal
 from src.conf import messages
 
-user_data = {"username": "yulyan7", "email": "yulyan7@gmail.com", "password": "789123"}
+user_data = {"username": "artem", "email": "artem@gmail.com", "password": "15061992"}
 
 
 def test_signup(client, monkeypatch):
